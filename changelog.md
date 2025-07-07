@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.2.0 (07.07.2025)
+
+- NEU: Die Darstellung von Formularfeldern wurde verbessert. Label können inline dargestellt werden und es gibt optimierte Darstellung für Checkboxen (inkl. Switch-Variante) und Radio-Buttons.
+- Die Option „Text umfließen“ wird nun unterstützt.
+- Die Tastatur-Navigation der Portfolio-Liste wurde optimiert
+
+Theme-Anpassungen kannst du über die [UPDATE.md](UPDATE.md) nachvollziehen.
+
 ## 4.1.1 (05.12.2024)
 
 - ein Fehler bei der Tastaturbedienung wurde behoben. Menüpunkte lassen sich nun auch mit ENTER auswählen.

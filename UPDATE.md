@@ -1,5 +1,67 @@
 # UPDATES
 
+## LASR 4.2.0
+
+Es gibt nun standardmäßig eine CSS-Gestaltung für Radio-Buttons und Checkboxen. Bei den Chekcboxen kann eine zusätzliche Variante für ein „Switch“-Layout genutzt werden, zum Beispiel zur Bestätigung der Datenschutzerklärung. Außerdem gibt es für Textfelder die „Inline“-Variante, bei der das Label bei Fokus des Elements oberhalb steht.
+
+Das Portfolio-Listen-Template wurde angepasst, sodass nur noch ein Link pro Beitrag erstellt wird, was die Tastatur-Navigation erleichtert.
+
+Außerdem wurde funktioniert nun auch die Variante „Bild umfließen“ für das Text-Element (Danke Ronald).
+
+Folgende Dateien wurden angepasst:
+
+### \_variables.scss, \_forms.scss
+
+- Es wurden eine Vielzahl von Custom Properties mit dem Prefix `--forms-` ergänzt. In der `_forms.scss` wurden unter anderem Anweisungen für `.ce_form`, `.widget-radio`, `widget-checkbox` ergänzt.
+- Wir empfehlen, die Anweisungen in der `_variables.scss` zu ergänzen und die `_forms.scss` soweit möglich zu ersetzen. Für Checkboxen gibt es ein zusätzliches Icon unter `files/theme/img/icons/checkmark.svg`.
+
+### \_portfolio.scss
+
+- CSS für Bildlinks wurden entfernt
+- Mittels Pseudo-Element ::after wurde der gesamte Beitrag klickbar gemacht.
+- Es wird empfohlen, die `_portfolio.scss` soweit möglich zu ersetzen.
+
+### \_media.scss
+
+Innerhalb von `.content-text` wurde folgende Anweisung ergänzt, damit der Text das Bild umfließt:
+
+```
+&.text--float {
+    display: block;
+
+    &.media--left,
+    &.media--right {
+      figure {
+        @include media-query(screen-sm) {
+          width: 40%;
+        }
+      }
+    }
+
+    &.media--left {
+      figure {
+        @include media-query(screen-sm) {
+          float: left;
+        }
+      }
+    }
+
+    &.media--right {
+      figure {
+        @include media-query(screen-sm) {
+          float: right;
+        }
+      }
+    }
+  }
+```
+
+### \_links.scss und \_newsletter.scss
+
+- In der `_links.scss` wurde ein Placeholder `%button--secondary` ergänzt (und auch genutzt), um Links das Aussehen eine Sekundärbuttons geben zu können (per `@extend`).
+- Dieser Placeholder wird auch in der `_newsletter.scss` verwendet.
+- Die Erweiterung von Klassen mittels `@extend` gilt als veraltet, ist aber noch möglich. Es wird empfohlen, die `_links_.scss` und `_newsletter.scss` soweit möglich zu ersetzen.
+
 ## LASR 4.1.1
 
 Ein Fehler im Script verhinderte die Auswahl eines Menüpunkts mit der ENTER-Taste. außerdem wurde eine Variable ergänzt, um die Farbe des Menüs einfacher ändern zu können.
