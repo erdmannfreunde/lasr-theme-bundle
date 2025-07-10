@@ -1,12 +1,16 @@
 # UPDATES
 
+## LASR 4.2.1
+
+- Im Seitenlayout „Standard“ wurde der zusätzliche Head-Tag entfernt und stattdessen die SCSS-Datei über „Externe Stylesheets“ wieder eingefügt.
+
 ## LASR 4.2.0
 
 Es gibt nun standardmäßig eine CSS-Gestaltung für Radio-Buttons und Checkboxen. Bei den Chekcboxen kann eine zusätzliche Variante für ein „Switch“-Layout genutzt werden, zum Beispiel zur Bestätigung der Datenschutzerklärung. Außerdem gibt es für Textfelder die „Inline“-Variante, bei der das Label bei Fokus des Elements oberhalb steht.
 
 Das Portfolio-Listen-Template wurde angepasst, sodass nur noch ein Link pro Beitrag erstellt wird, was die Tastatur-Navigation erleichtert.
 
-Außerdem wurde funktioniert nun auch die Variante „Bild umfließen“ für das Text-Element (Danke Ronald).
+Außerdem funktioniert nun auch die Variante „Bild umfließen“ für das Text-Element (Danke Ronald).
 
 Folgende Dateien wurden angepasst:
 

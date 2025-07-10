@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.1 (10.07.2025)
+
+- Ein Fehler wurde bei behoben, bei dem die CSS-Anweisungen im Standard-Layout nicht geladen wurden.
+
 ## 4.2.0 (07.07.2025)
 
 - NEU: Die Darstellung von Formularfeldern wurde verbessert. Label können inline dargestellt werden und es gibt optimierte Darstellung für Checkboxen (inkl. Switch-Variante) und Radio-Buttons.
