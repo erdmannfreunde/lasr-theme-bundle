@@ -1,5 +1,11 @@
 # UPDATES
 
+## LASR 4.2.2
+
+- behebt einen Fehler in der `_hero.scss` (fehlende Größeneinheit rem)
+- entfernt veraltete Sass-Variablen in der `_config.scss`.
+- korrigiert eine Variable für Buttons in Highlight-Artikeln in der `_links.scss`.
+
 ## LASR 4.2.1
 
 - Im Seitenlayout „Standard“ wurde der zusätzliche Head-Tag entfernt und stattdessen die SCSS-Datei über „Externe Stylesheets“ wieder eingefügt.

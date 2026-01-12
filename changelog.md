@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.2 (12.01.2026)
+
+- kleinere Fehlerbehehungen und Aufräumarbeiten
+
 ## 4.2.1 (10.07.2025)
 
 - Ein Fehler wurde bei behoben, bei dem die CSS-Anweisungen im Standard-Layout nicht geladen wurden.
