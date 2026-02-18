@@ -19,14 +19,14 @@
   ],
   "require": {
     "php": "^8.1",
-    "contao/core-bundle": "^5.3",
+    "contao/core-bundle": "^5.7",
     "nutshell-framework/nutshell": "^2.0",
     "nutshell-framework/hero-element": "^1.0",
     "nutshell-framework/card-element": "^1.0",
     "nutshell-framework/contact-element": "^1.0",
     "erdmannfreunde/contao-grid-bundle": "^2.0",
     "erdmannfreunde/portfoliobundle": "^5.0",
-    "erdmannfreunde/theme-toolbox": "^3.0",
+    "erdmannfreunde/theme-toolbox": "4.x-dev",
     "erdmannfreunde/contao-ping-bundle": "^1.0"
   }
 }
