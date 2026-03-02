@@ -1,6 +1,6 @@
 {
   "name": "erdmannfreunde/lasr-theme-bundle",
-  "type": "metapackage",
+  "type": "contao-bundle",
   "description": "Install LASR Theme dependencies via Contao Manager or Composer",
   "keywords": [
     "contao theme",
