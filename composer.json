@@ -28,5 +28,10 @@
     "erdmannfreunde/portfoliobundle": "^5.0",
     "erdmannfreunde/theme-toolbox": "4.x-dev@dev",
     "erdmannfreunde/contao-ping-bundle": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ErdmannFreunde\\LasrThemeBundle\\": "src/"
+    }
   }
 }
