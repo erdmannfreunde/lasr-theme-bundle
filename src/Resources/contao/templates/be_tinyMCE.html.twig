@@ -1,0 +1,27 @@
+{% if globals.TL_CONFIG.useRTE %}
+
+<script>window.tinymce || document.write('<script src="{{ asset('js/tinymce.min.js', 'contao-components/tinymce4') }}">\x3C/script>')</script>
+
+{% extends 'be_tinyMCE' %}
+
+  {% block content_css %}
+    content_css: '/assets/lasr-theme/css/tinymce.css',
+    style_formats_merge: true,
+    style_formats: [
+      {title: 'Theme Styles', items: [
+        { title: 'Button Primary', block: 'div', classes: 'btn btn--primary', exact: true },
+        { title: 'Button Secondary', block: 'div', classes: 'btn btn--secondary',  exact: true },
+        { title: 'Text Attention', block: 'p', classes: 'text--attention',  exact: true }
+      ]}
+    ],
+  {% endblock %}
+
+  {% block plugins %}
+    plugins: 'autosave charmap code fullscreen image importcss link lists searchreplace stripnbsp table visualblocks visualchars',
+  {% endblock %}
+
+  {% block toolbar %}
+    toolbar: 'link unlink | image | bold italic | styles | bullist numlist outdent indent | undo redo | code',
+  {% endblock %}
+
+{% endif %}

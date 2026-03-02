@@ -1,0 +1,17 @@
+<div class="layout_simple arc_{{ archive.id }} block{{ class }}">
+    {% if addImage %}
+        {{ include('@Contao/image.html.twig') }}
+    {% endif %}
+    
+    <div class="content_container">
+        {{ linkHeadline|raw }}
+    </div>
+</div>
+
+{#
+    This template is used as a news list template by default, so we only add
+    JSON-LD data in case this is a news article without a reader
+#}
+{% if not hasReader %}
+    {% do add_schema_org(getSchemaOrgData.invoke()) %}
+{% endif %}

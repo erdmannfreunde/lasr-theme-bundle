@@ -1,0 +1,15 @@
+<div class="layout_full block{{ class }}" itemscope itemtype="http://schema.org/Article">
+
+    <h1 itemprop="name">{{ headline }}</h1>
+
+    <aside class="portfolio__meta">
+        <div class="portfolio__date">{{ date }}</div>
+        <div class="portfolio__categories">{{ category_titles }}</div>
+        <div class="portfolio__client">{{ client }}</div>
+    </aside>
+
+    <div class="portfolio__content">
+        {{ text|raw }}
+    </div>
+
+  </div>
