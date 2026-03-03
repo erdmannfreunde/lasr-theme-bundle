@@ -20,6 +20,8 @@
   "require": {
     "php": "^8.1",
     "contao/core-bundle": "^5.7",
+    "contao/manager-plugin": "^2.0",
+    "symfony/http-kernel": "^6.0 || ^7.0",
     "nutshell-framework/nutshell": "^2.0",
     "nutshell-framework/hero-element": "^1.0",
     "nutshell-framework/card-element": "^1.0",
@@ -33,5 +35,8 @@
     "psr-4": {
       "ErdmannFreunde\\LasrThemeBundle\\": "src/"
     }
+  },
+  "extra": {
+    "contao-manager-plugin": "ErdmannFreunde\\LasrThemeBundle\\ContaoManager\\Plugin"
   }
 }
