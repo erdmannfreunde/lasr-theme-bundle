@@ -1,8 +1,4 @@
-{% if globals.TL_CONFIG.useRTE %}
-
-<script>window.tinymce || document.write('<script src="{{ asset('js/tinymce.min.js', 'contao-components/tinymce4') }}">\x3C/script>')</script>
-
-{% extends 'be_tinyMCE' %}
+{% extends '@Contao/be_tinyMCE.html.twig' %}
 
   {% block content_css %}
     content_css: '/assets/lasr-theme/css/tinymce.css',
@@ -23,5 +19,3 @@
   {% block toolbar %}
     toolbar: 'link unlink | image | bold italic | styles | bullist numlist outdent indent | undo redo | code',
   {% endblock %}
-
-{% endif %}
