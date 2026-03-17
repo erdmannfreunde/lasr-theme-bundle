@@ -28,7 +28,7 @@
     "nutshell-framework/contact-element": "^1.0",
     "erdmannfreunde/contao-grid-bundle": "^2.0",
     "erdmannfreunde/portfoliobundle": "^5.0",
-    "erdmannfreunde/theme-toolbox": "4.x-dev as 4.0.0",
+    "erdmannfreunde/theme-toolbox": "^4.0@RC",
     "erdmannfreunde/contao-ping-bundle": "^1.0"
   },
   "autoload": {
