@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.1 (22.07.2026)
+
+- LASR unterstützt nun den neuen Live-Theme-Editor im Frontend und hat 4 Presets dabei
+- kleinere Anpassungen, u.a. für Card, Kontakt und Portfolio, um Änderungen beim Border und Border-Radius via Live-Theme-Editor dirtekt sichtbar zu machen
+- card--minimal in der Dokumentation ergänzt
+
 ## 5.0.0 (06.05.2026)
 
 Die neue Version 5.0 bringt neben einer verbesserten Unterstützung für Contao 5.7 (z.B. Twig-Templates) eine völlig neue Theme Struktur und Arbeitsweise über die Theme Toolbox mit.
