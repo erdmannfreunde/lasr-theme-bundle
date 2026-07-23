@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.0.2 (23.07.2026)
+
+- Border-Radius für das Medien-Video korrigiert
+- Pfad zum Checkbox-Icon in Formularen korrigiert
+
 ## 5.0.1 (22.07.2026)
 
 - LASR unterstützt nun den neuen Live-Theme-Editor im Frontend und hat 4 Presets dabei
