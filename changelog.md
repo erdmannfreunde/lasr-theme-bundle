@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.3 (07.09.2026)
+
+- Hauptnavigation: Dropdowns lassen sich auf Windows-Hybridgeräten (z. B. Surface) jetzt auch per Maus öffnen, wenn der Touchscreen als primäres Eingabegerät gemeldet wird (Danke Micha!)
+- Hauptnavigation: Nach einer Touch-Geste wird der erste Mausklick auf einen Menüpunkt mit Untermenü nicht mehr verschluckt
+- Hauptnavigation: Ein per Touch geöffnetes Dropdown schließt jetzt auch beim Klick außerhalb der Navigation
+- Hinweis: Wer eine eigene `_navs.scss` oder `navigation.js` im Custom-Verzeichnis liegen hat, erhält die Korrekturen nicht automatisch — die Theme Toolbox löst Custom-Dateien vor den Theme-Originalen auf
+
 ## 5.0.2 (23.07.2026)
 
 - Border-Radius für das Medien-Video korrigiert
