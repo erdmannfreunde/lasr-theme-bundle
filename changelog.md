@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.4 (23.09.2026)
+
+- Das Logo der Demo kommt jetzt aus dem Theme (`assets/lasr-theme/img/logo.svg`) statt aus `files/demo`. Damit lässt es sich über den Theme Editor ersetzen.
+- Theme Toolbox 4.2 wird ausdrücklich verlangt. Bisher stand dort ^4.0, obwohl die Presets und Design-Tokens von LASR 5 den Live-Editor ab 4.2 voraussetzen.
+- Demo-Inhalte aktualisiert: Impressum nennt Adobe Stock als Bildquelle, die Link-Elemente und der Copyright-Hinweis verweisen auf flow-contao-themes.de.
+- Dokumentation im Demo-Inhalt überarbeitet: veraltete Angaben zu `files/theme` und die Seite „Variablen“ sind entfallen. Diese Themen stehen jetzt in der zentralen Dokumentation unter docs.flow-contao-themes.de.
+
 ## 5.0.3 (07.09.2026)
 
 - Hauptnavigation: Dropdowns lassen sich auf Windows-Hybridgeräten (z. B. Surface) jetzt auch per Maus öffnen, wenn der Touchscreen als primäres Eingabegerät gemeldet wird (Danke Micha!)
