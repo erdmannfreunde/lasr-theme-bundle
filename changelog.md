@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.5 (29.09.2026)
+
+- Lizenzbedingungen liegen dem Paket jetzt bei: `LIZENZ-de.txt` als maßgebliche Fassung und `LICENSE-en.txt` als englische Übersetzung. Bisher enthielt das Paket keinerlei Lizenztext.
+- Neue `CREDITS.txt` weist alle Bestandteile Dritter nach – Schriften, Icons, das `count-up.js` und die Demo-Bilder. Die vollständigen Lizenztexte liegen im Ordner `licenses/`, weil sowohl die SIL Open Font License als auch die Apache License 2.0 die Mitlieferung des Textes verlangen.
+- Lizenzangabe in der `composer.json` von `LGPL-3.0-or-later` auf `proprietary` geändert. Die bisherige Angabe widersprach den Lizenzbedingungen. Das Theme-Bundle `erdmannfreunde/lasr-theme-bundle` bleibt davon unberührt und weiterhin LGPL.
+- `trumps/_documentation.scss` aufgeräumt: `.color-palette` und die ungenutzten `.bg-*`-Klassen entfernt. `.bg-dark` bleibt, die Meta-Navigation der Demo nutzt sie.
+
 ## 5.0.4 (23.09.2026)
 
 - Das Logo der Demo kommt jetzt aus dem Theme (`assets/lasr-theme/img/logo.svg`) statt aus `files/demo`. Damit lässt es sich über den Theme Editor ersetzen.
